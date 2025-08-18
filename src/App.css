@@ -31,10 +31,24 @@ body {
 }
 
 .hero {
-  margin: 30px auto;
+  margin: 50px auto;
   width: 95%;
 }
 
-.hero h1 {
+h1 {
   font-family: Space Grotesk, sans-serif;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 15px;
+  font: inherit;
+  margin: 10px auto;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
 }
