@@ -1,7 +1,8 @@
 const Introduction = () => {
     return (
         <>
-            <h1>Introduction</h1>
+            <h1 className="sub-header">Introduction</h1>
+            <p></p>
         </>
     )
 }
