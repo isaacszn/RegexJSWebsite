@@ -2,8 +2,7 @@ import './App.css'
 import Nav from './components/NavBar'
 import HeroSection from './components/Hero'          
 import IntroSection from './components/Intro'
-//import MainContent from './components/MainContent'
-//import Footer from './components/Footer'
+import GetStartedSection from './components/GetStarted'
 
 function App() {
   return (
@@ -11,6 +10,7 @@ function App() {
       <Nav />
       <HeroSection />
       <IntroSection />
+      <GetStartedSection />
     </>
   )
 }
