@@ -20,7 +20,13 @@ body {
   background-color: rgb(1, 1, 85);
   color: white;
   margin: 30px;
-  margin-top: 180px;
+  margin-top: 170px;
+}
+
+.nav-bar a {
+  font-family: Space Grotesk, sans-serif;
+  text-decoration: none;
+  color: white;
 }
 
 .nav-bar {
@@ -28,7 +34,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +42,7 @@ body {
 }
 
 .menu-btn {
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -58,7 +65,7 @@ h1 {
   margin: 10px auto;
   color: white;
   background-color: black;
-  border: none;
+  border: thin solid white;
   cursor: pointer;
 }
 
@@ -68,7 +75,8 @@ h1 {
 }
 
 .sub-header {
-  margin: 50px;
+  margin: 50px auto 30px auto;
+  text-align: center;
 }
 
 .flex {
@@ -77,9 +85,15 @@ h1 {
   justify-content: center;
 }
 
+.box {
+  background-color: black;
+  border: thin solid white;
+  padding: 1rem;
+}
+
 /* For Screen Responsiveness (Large Screens) */
 @media screen and (min-width: 480px) {
   .hero {
-    margin-top: 80px;
+    margin-top: 230px;
   }
 }

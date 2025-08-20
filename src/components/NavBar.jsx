@@ -2,7 +2,7 @@ const NavBar = () => {
     return (
         <>
             <div className="nav-bar">
-                <span><img src='/src/assets/logo.jpg' alt="Icon" width="1024" height="1024"/> <span className="flex">RegexJS</span></span>
+                <a href="https://regexjs-doc.vercel.app"><img src='./src/assets/logo.jpg' alt="Logo" width="1024" height="1024"/> <span className="flex">RegexJS</span></a>
                 <span className="menu-btn">&#9776;</span>
             </div>
         </>
