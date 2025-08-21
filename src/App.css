@@ -91,6 +91,23 @@ h1 {
   padding: 1rem;
 }
 
+.pink {
+  color: rgb(255, 2, 2);
+}
+
+.green {
+  color: green;
+}
+
+.light-green {
+  color: lightgreen;
+}
+
+code {
+  background-color: black;
+  width: 100%;
+}
+
 /* For Screen Responsiveness (Large Screens) */
 @media screen and (min-width: 480px) {
   .hero {
