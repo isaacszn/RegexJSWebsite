@@ -18,10 +18,10 @@
 }
 
 body { 
-  font: 0.98rem Poppins, sans-serif;
+  font: 0.90rem Poppins, sans-serif;
   background-color: rgb(1, 1, 85);
   color: white;
-  margin: 30px;
+  margin: 25px;
   margin-top: 180px;
   max-width: 100%;
 }
@@ -37,7 +37,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 25px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,7 +106,7 @@ h1 {
   background-color: black;
   border: thin solid #ffffff;
   padding: 1rem;
-  width: 90%;
+  width: 98%;
   margin: 35px auto;
 }
 
@@ -124,7 +124,14 @@ h1 {
 
 code {
   background-color: black;
-  padding: 5px;
+  padding: 1px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.method-lists {
+  white-space: pre-wrap;
+  overflow-x: auto;
 }
 
 .script {

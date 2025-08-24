@@ -1,4 +1,5 @@
 import Footer from '../components/Footer';
+import Logo from '../assets/logo.jpg'
 
 const NavBar = () => {
     const showMenu  = () => {
@@ -16,11 +17,11 @@ const NavBar = () => {
     return (
         <>
             <div className="nav-bar-mobile">
-                <a href="https://regexjs-doc.vercel.app"><img src='./src/assets/logo.jpg' alt="Logo" width="1024" height="1024"/> <span className="flex">RegexJS</span></a>
+                <a href="https://regexjs-doc.vercel.app"><img src={Logo} alt="Logo" width="1024" height="1024"/> <span className="flex">RegexJS</span></a>
                 <span className="menu-btn" onClick={showMenu}>&#9776;</span>
             </div>
             <div className="nav-bar-desktop">
-                <a href="https://regexjs-doc.vercel.app" className="logo"><img src='./src/assets/logo.jpg' alt="Logo" width="1024" height="1024"/> <span className="flex">RegexJS</span></a>
+                <a href="https://regexjs-doc.vercel.app" className="logo"><img src={Logo} alt="Logo" width="1024" height="1024"/> <span className="flex">RegexJS</span></a>
                 <ul className="nav-links">
                     <li><a href="#intro">Introduction</a></li>
                     <li><a href="#get-started">Get started</a></li>
@@ -29,7 +30,7 @@ const NavBar = () => {
             </div>
             <aside className="menu hide">
                 <span className="hide-btn" onClick={hideMenu}>x</span>
-                <a href="https://regexjs-doc.vercel.app" className="menu-header"><img src='./src/assets/logo.jpg' alt="Logo" width="1024" height="1024"/> <span className="flex">RegexJS</span></a>
+                <a href="https://regexjs-doc.vercel.app" className="menu-header"><img src={Logo} alt="Logo" width="1024" height="1024"/> <span className="flex">RegexJS</span></a>
                 <ul className="menu-links">
                     <li><a href="#intro">Introduction</a></li>
                     <li><a href="#get-started">Get started</a></li>

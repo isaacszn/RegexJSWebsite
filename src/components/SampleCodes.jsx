@@ -11,7 +11,7 @@ const SampleCodes = () => {
             <div className="box">
                 <h1 className="sub-header" id="sample-codes">Sample Codes</h1>
                 <p>The RegexJS library comes with few pre-written methods for writing regular expression patterns and doing validation with them for now, they include:</p>
-                <ul>
+                <ul className="method-lists">
                     <li><code><span className="pink">RegexJS</span>.<span className="green">patternEmail</span>(<span className="light-green">email</span>);</code></li>
                     <li><code><span className="pink">RegexJS</span>.<span className="green">patternURL</span>(<span className="light-green">url</span>);</code></li>
                     <li><code><span className="pink">RegexJS</span>.<span className="green">patternPhoneNo</span>(<span className="light-green">phoheNumber</span>);</code></li>
